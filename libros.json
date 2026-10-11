@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien a\u00f1os de soledadddd",
+    "autor": "Gabriel Garc\u00eda M\u00e1rquez",
+    "isbn": "978-0307474728",
+    "anio_publicacion": 1967,
+    "estado": "disponible",
+    "created_at": "2026-10-08 17:23:00"
+  },
+  {
+    "id": 2,
+    "titulo": "El Aleph",
+    "autor": "Jorge Luis Borges",
+    "isbn": "978-0142437889",
+    "anio_publicacion": 1949,
+    "estado": "prestado",
+    "created_at": "2026-10-08 17:23:00"
+  },
+  {
+    "id": 3,
+    "titulo": "Pedro P\u00e1ramo",
+    "autor": "Juan Rulfo",
+    "isbn": "978-8437604947",
+    "anio_publicacion": 1955,
+    "estado": "disponible",
+    "created_at": "2026-10-08 17:23:00"
+  },
+  {
+    "id": 5,
+    "titulo": "Rayuela",
+    "autor": "Julio Cort\u00e1zar",
+    "isbn": "978-8437604572",
+    "anio_publicacion": 1963,
+    "estado": "disponible",
+    "created_at": "2026-10-08 22:49:13"
+  },
+  {
+    "id": 8,
+    "titulo": "El t\u00fanel",
+    "autor": "Ernesto Sabato",
+    "isbn": "978-8432217500",
+    "anio_publicacion": 1948,
+    "estado": "disponible",
+    "created_at": "2026-10-08 23:09:22"
+  },
+  {
+    "id": 9,
+    "titulo": "El t\u00fanel",
+    "autor": "Ernesto Sabato",
+    "isbn": "978-843221750",
+    "anio_publicacion": 1948,
+    "estado": "disponible",
+    "created_at": "2026-10-08 23:10:57"
+  },
+  {
+    "id": 11,
+    "titulo": "El t\u00fanel",
+    "autor": "Ernesto Sabato",
+    "isbn": "978-8432217512",
+    "anio_publicacion": 1948,
+    "estado": "disponible",
+    "created_at": "2026-10-08 23:14:49"
+  }
+]

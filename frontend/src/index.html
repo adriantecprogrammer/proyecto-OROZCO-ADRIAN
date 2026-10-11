@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo de libros</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Catálogo de libros</h1>
+      <div id="mensaje" role="status"></div>
+      <button onclick="exportJSON()">Exportar JSON</button>
+      <form id="form-libro">
+        <input type="hidden" id="libro-id" />
+        <input id="titulo" placeholder="Título" required maxlength="150" />
+        <input id="autor" placeholder="Autor" required maxlength="100" />
+        <input id="isbn" placeholder="ISBN" required maxlength="20" />
+        <input
+          id="anio"
+          type="number"
+          placeholder="Año"
+          min="1000"
+          max="2100"
+          required
+        />
+        <select id="estado">
+          <option value="disponible">Disponible</option>
+          <option value="prestado">Prestado</option>
+        </select>
+        <button type="submit" id="btn-guardar">Agregar libro</button>
+        <button type="button" id="btn-cancelar" hidden>Cancelar</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>ISBN</th>
+            <th>Año</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-libros"></tbody>
+      </table>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
